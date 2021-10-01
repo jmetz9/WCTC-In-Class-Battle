@@ -23,11 +23,14 @@ namespace Battle
             // Attack Enemy (execute method)
             fighter.Attack(enemy);
 
-            IMonster monster = null;
-            monster.Roar();
+            //IMonster monster = null;
+            //monster.Roar();
+            
+            IMonster snake = new Serpent();
+            snake.Roar();
 
             //IRepository repos = new JsonRepository();
-            
+
             // all i care about is that I retrieved a movie
             // from where?  who cares!
             //var movie = repos.Get(1);
